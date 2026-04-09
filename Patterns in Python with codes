@@ -45,7 +45,4 @@ for i in range(1, 7):
   print((str(1) + " ") * i)
 
 
-#Hollow NumberTable
-for i in range(1, 9):
-  print((str(i) + " ") * i)
 
