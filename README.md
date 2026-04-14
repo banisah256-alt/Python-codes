@@ -1,2 +1,2 @@
 # Python-codes
-Here,/ I store my created python codes in it
+Here,/ I store my practiced codes in Python
