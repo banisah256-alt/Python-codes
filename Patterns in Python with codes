@@ -126,3 +126,12 @@ for i in range(n):
     for j in range(n):
         print("*", end= " ")
     print()
+
+
+x = 10
+y = x+5
+print(y)
+
+
+name = "Bani Sah"
+print("Hello %s"  %name)
