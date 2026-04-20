@@ -38,13 +38,9 @@ They help in mastering:
 * 🔲 Square & Rectangle Patterns
 
 ## 📁 Folder Structure
-
-```id="pattern01"
-star_patterns/
-number_patterns/
-alphabet_patterns/
-pyramid_patterns/
-
+Patterns in Python with codes/
+Codes_py.ipynb/
+quiz_game.py/
 *(Structure may expand as more patterns are added)*
 
 
@@ -54,11 +50,8 @@ Make sure Python is installed on your system.
 
 Run any file using:
 
-```id="patternrun01"
+id="patternrun01"
 python filename.py
-```
-
----
 
 ## 🧠 Skills You Will Build
 
@@ -73,7 +66,6 @@ python filename.py
 * Include pattern explanations
 * Add input-based dynamic patterns
 * Optimize and structure code better
-
 
 
 ## 👨‍💻 Who This Is For
