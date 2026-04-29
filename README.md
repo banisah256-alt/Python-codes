@@ -1,6 +1,6 @@
 # 🐍 Python-codes | Pattern Programs Repository
 
-A focused collection of Python pattern programs designed to improve logic building, loop control, and problem-solving skills — essential for coding interviews and placement preparation.
+A focused collection of Python pattern programs designed to improve logic building, loop control, and problem-solving skills — essential for coding interviews and placement related preparation.
 
 ## 📌 About This Repository
 
