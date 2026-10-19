@@ -2,7 +2,7 @@
 
 A focused collection of Python pattern programs designed to improve logic building, loop control, and problem-solving skills — essential for coding interviews and placement related preparation.
 
-## 📌This Repository consists of these:-
+## 📌This Repository consists of these contexts :-
 
 This repository contains Python programs that generate different types of patterns using loops and logic.
 
