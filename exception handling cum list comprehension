@@ -4,7 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyOymF1ttit3Uh/7vrzTS9kO",
+      "authorship_tag": "ABX9TyOYsqwKbEK+RgkrVk12NN+F",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -161,6 +161,20 @@
       ],
       "metadata": {
         "id": "uUK-4YxLwxOA"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "words = [\"hello\", \"python\", \"apnacollege\"]\n",
+        "\n",
+        "#words = [val.upper() for val in words]\n",
+        "print(words[0].upper())"
+      ],
+      "metadata": {
+        "id": "JJMTmLzaxSnz"
       },
       "execution_count": null,
       "outputs": []
