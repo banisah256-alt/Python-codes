@@ -1,0 +1,148 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyM90ww9OEDZN0mugY4wsMCu",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/banisah256-alt/Python-codes/blob/main/exception%20handling%20cum%20list%20comprehension\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "zPZGLpvXz-DR"
+      },
+      "outputs": [],
+      "source": [
+        "##exCEPTION hANDLING##\n",
+        "\n",
+        "##try,except,else,finally\n",
+        "try:\n",
+        "    x = int(input(\"Enter x : \"))\n",
+        "    ans = 10/x\n",
+        "\n",
+        "except ZeroDivisionError:\n",
+        "    print(f\"Dvide by 0 is not allowed!\")\n",
+        "\n",
+        "except ValueError:\n",
+        "    print(f\"Please enter a valid integer!\")\n",
+        "\n",
+        "else:\n",
+        "    print(f\"ans = {ans }\")"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "##Finally keyword\n",
+        "\n",
+        "try:\n",
+        "   x = int(input(\"Enter x: \"))\n",
+        "   ans = 10/x\n",
+        "\n",
+        "except ZeroDivisionError:\n",
+        "      print(f\"Divide by zero is not allowed\")\n",
+        "\n",
+        "except ValueError:\n",
+        "       print(\"Invalid!\")\n",
+        "\n",
+        "else:\n",
+        "     print(f\"ans = {ans}\")\n",
+        "\n",
+        "finally:\n",
+        "      print(\"End of the program!\")\n",
+        "\n",
+        "\n",
+        "\n"
+      ],
+      "metadata": {
+        "id": "vzxiBgMstKk6"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "##List  Comprehension := Output for items in iterable if condition\n",
+        "\n",
+        "squares = []\n",
+        "\n",
+        "for i in range():\n",
+        "    squares.append(i*i)\n",
+        "\n",
+        "print(squares)"
+      ],
+      "metadata": {
+        "id": "vyPhurHouIos"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#another option for list comprehension##\n",
+        "\n",
+        "pyramid = []\n",
+        "\n",
+        "for i in range(21):\n",
+        "    pyramid.append(i*i)\n",
+        "\n",
+        "print(pyramid)"
+      ],
+      "metadata": {
+        "id": "LRZNXwEMuyBS"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "squares = []\n",
+        "sq = [i*i for i in range(12)]\n",
+        "print(sq)"
+      ],
+      "metadata": {
+        "id": "t0dgYpRQvRfq"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#only selected ones\n",
+        "\n",
+        "sq = [i*i for i in range(8) if i%2 != 0]\n",
+        "print()\n"
+      ],
+      "metadata": {
+        "id": "0Qn6xH4rvxpp"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
